@@ -7,6 +7,7 @@
 //
 
 #import "CHCardItemCustomView.h"
+#import "CHCardItemModel.h"
 
 @interface CHCardItemCustomView ()
 @property (nonatomic, weak) UIImageView *imgView;
