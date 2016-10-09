@@ -1,9 +1,6 @@
 
 ###更多内容请移步至简书：简书地址：[简书地址](http://www.jianshu.com/users/3930920b505b/latest_articles) 
-####Gif展示
-
-
-####Gif展示
+####Gif展示 
 
 ![8.gif](http://upload-images.jianshu.io/upload_images/939127-47e6bca543d3b027.gif?imageMogr2/auto-orient/strip)
 
