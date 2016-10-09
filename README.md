@@ -4,7 +4,9 @@
 
 
 ![5.gif](http://upload-images.jianshu.io/upload_images/939127-411f4086f9dc1132.gif?imageMogr2/auto-orient/strip)
+
 ![6.gif](http://upload-images.jianshu.io/upload_images/939127-e6ab09213f8ebd3f.gif?imageMogr2/auto-orient/strip)
+
 
 #####主要代码：CHCardView.h
 ```
