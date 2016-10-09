@@ -7,11 +7,7 @@
 //
 
 #import "CHCardItemView.h"
-#import "CHCardItemModel.h"
-
-@interface CHCardItemView ()
-@property (nonatomic, weak) UIImageView *imgView;
-@end
+#import "CHCardItemModel.h" 
 
 @implementation CHCardItemView {
     CGPoint _originalCenter;
@@ -39,8 +35,7 @@
     [self addGestureRecognizer:pan];
 }
 
-- (void)configLayer {
-    
+- (void)configLayer { 
     self.layer.cornerRadius = 5.0;
     self.layer.masksToBounds = YES;
     self.layer.shouldRasterize = YES;
@@ -60,8 +55,9 @@
         
         self.center = CGPointMake(self.center.x + movePoint.x, self.center.y + movePoint.y);
         
-        CGFloat angle = (self.center.x - self.frame.size.width / 2.0) / self.frame.size.width * 0.5;
+        CGFloat angle = (self.center.x - self.frame.size.width / 2.0) / self.frame.size.width / 4.0;
         _currentAngle = angle;
+        
         self.transform = CGAffineTransformMakeRotation(angle);
         
         [panGest setTranslation:CGPointZero inView:self];
@@ -69,12 +65,12 @@
     } else if (panGest.state == UIGestureRecognizerStateEnded) {
         
         CGPoint vel = [panGest velocityInView:self];
-        if (vel.x > 400 || vel.x < - 400) {
+        if (vel.x > 800 || vel.x < - 800) {
             [self remove];
             return ;
         }
-        if (self.frame.origin.x + self.frame.size.width > 100 && self.frame.origin.x < self.frame.size.width - 100) {
-            [UIView animateWithDuration:0.3 animations:^{
+        if (self.frame.origin.x + self.frame.size.width > 150 && self.frame.origin.x < self.frame.size.width - 150) {
+            [UIView animateWithDuration:0.5 animations:^{
                 self.center = _originalCenter;
                 self.transform = CGAffineTransformMakeRotation(0);
             }];

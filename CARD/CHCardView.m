@@ -11,7 +11,6 @@
 #import "CHCardItemModel.h"
 
 @interface CHCardView () <CHCardItemViewDelegate>
-
 @end
 
 @implementation CHCardView {
@@ -28,6 +27,7 @@
     if (_dataSource == nil) {
         return ;
     }
+    
     // 1. 移除
     [self.subviews makeObjectsPerformSelector:@selector(removeFromSuperview)];
     

@@ -10,4 +10,5 @@
 
 @interface CHCardItemModel : NSObject
 @property (nonatomic, copy) NSString *localImagename;
+@property (nonatomic, copy) NSString *imagename;
 @end

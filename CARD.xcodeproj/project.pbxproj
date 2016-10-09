@@ -19,6 +19,8 @@
 		31C03A211DA9F26000EEE979 /* CHCardItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C03A1B1DA9F26000EEE979 /* CHCardItemModel.m */; };
 		31C03A221DA9F26000EEE979 /* CHCardItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C03A1D1DA9F26000EEE979 /* CHCardItemView.m */; };
 		31C03A231DA9F26000EEE979 /* CHCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C03A1F1DA9F26000EEE979 /* CHCardView.m */; };
+		56C0D8D71DAA4A78002C7D5C /* JSON in Resources */ = {isa = PBXBuildFile; fileRef = 56C0D8D61DAA4A78002C7D5C /* JSON */; };
+		56C0D8DA1DAA5032002C7D5C /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 56C0D8D91DAA5032002C7D5C /* NSString+MD5.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,9 @@
 		31C03A1D1DA9F26000EEE979 /* CHCardItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHCardItemView.m; sourceTree = "<group>"; };
 		31C03A1E1DA9F26000EEE979 /* CHCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHCardView.h; sourceTree = "<group>"; };
 		31C03A1F1DA9F26000EEE979 /* CHCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHCardView.m; sourceTree = "<group>"; };
+		56C0D8D61DAA4A78002C7D5C /* JSON */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = JSON; sourceTree = "<group>"; };
+		56C0D8D81DAA5032002C7D5C /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		56C0D8D91DAA5032002C7D5C /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +130,9 @@
 				31C039E91DA9F25300EEE979 /* AppDelegate.m */,
 				31C039EB1DA9F25300EEE979 /* ViewController.h */,
 				31C039EC1DA9F25300EEE979 /* ViewController.m */,
+				56C0D8D81DAA5032002C7D5C /* NSString+MD5.h */,
+				56C0D8D91DAA5032002C7D5C /* NSString+MD5.m */,
+				56C0D8D61DAA4A78002C7D5C /* JSON */,
 				31C039EE1DA9F25300EEE979 /* Main.storyboard */,
 				31C039F11DA9F25300EEE979 /* Assets.xcassets */,
 				31C039F31DA9F25300EEE979 /* LaunchScreen.storyboard */,
@@ -265,6 +273,7 @@
 			files = (
 				31C039F51DA9F25300EEE979 /* LaunchScreen.storyboard in Resources */,
 				31C039F21DA9F25300EEE979 /* Assets.xcassets in Resources */,
+				56C0D8D71DAA4A78002C7D5C /* JSON in Resources */,
 				31C039F01DA9F25300EEE979 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,6 +301,7 @@
 			files = (
 				31C03A221DA9F26000EEE979 /* CHCardItemView.m in Sources */,
 				31C039ED1DA9F25300EEE979 /* ViewController.m in Sources */,
+				56C0D8DA1DAA5032002C7D5C /* NSString+MD5.m in Sources */,
 				31C039EA1DA9F25300EEE979 /* AppDelegate.m in Sources */,
 				31C03A231DA9F26000EEE979 /* CHCardView.m in Sources */,
 				31C039E71DA9F25300EEE979 /* main.m in Sources */,
@@ -522,6 +532,7 @@
 				31C03A111DA9F25300EEE979 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		31C03A121DA9F25300EEE979 /* Build configuration list for PBXNativeTarget "CARDTests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +541,7 @@
 				31C03A141DA9F25300EEE979 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		31C03A151DA9F25300EEE979 /* Build configuration list for PBXNativeTarget "CARDUITests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +550,7 @@
 				31C03A171DA9F25300EEE979 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

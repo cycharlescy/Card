@@ -21,6 +21,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+  
+    
     // set up views
     [self setUpViews];
     
@@ -72,12 +74,42 @@
 
 // data
 - (void)loadData {
-    [self.dataArray removeAllObjects];
-    for (int i = 0; i < 10; i++) {
-        CHCardItemModel *itemModel = [[CHCardItemModel alloc] init];
-        itemModel.localImagename = [NSString stringWithFormat:@"%d.jpg", i + 1];
-        [self.dataArray addObject:itemModel];
+    
+    // 随机切换..
+    NSInteger random = arc4random_uniform(1000);
+    if (random % 2 == 0) {
+        //  本地数据
+            [self.dataArray removeAllObjects];
+            for (int i = 0; i < 10; i++) {
+                CHCardItemModel *itemModel = [[CHCardItemModel alloc] init];
+                itemModel.localImagename = [NSString stringWithFormat:@"%d.jpg", i + 1];
+                [self.dataArray addObject:itemModel];
+            }
+    } else {
+        
+        // 网络数据
+        [self.dataArray removeAllObjects];
+        
+        NSArray *urls = @[
+                          @"http://photo.enterdesk.com/2010-10-24/enterdesk.com-3B11711A460036C51C19F87E7064FE9D.jpg",
+                          @"http://img3.redocn.com/tupian/20150411/shouhuixiantiaopingguoshiliang_4042458.jpg",
+                          @"http://pic28.nipic.com/20130424/11588775_115415688157_2.jpg",
+                          @"http://www.274745.cc/imgall/obuwgnjonzuxa2ldfzrw63i/20100121/1396946_104643942888_2.jpg",
+                          @"http://bizhi.zhuoku.com/2011/01/09/jingxuan/Jingxuan263.jpg",
+                          @"http://img.taopic.com/uploads/allimg/131113/235002-13111309532260.jpg",
+                          @"http://pic54.nipic.com/file/20141204/19902974_135858226000_2.jpg"
+                          ];
+        
+        for (NSString *url in urls) {
+            CHCardItemModel *itemModel = [[CHCardItemModel alloc] init];
+            itemModel.imagename = url;
+            [self.dataArray addObject:itemModel];
+        }
     }
+    
+    
+  
+    
 }
 
 #pragma mark - CHCardViewDelegate
