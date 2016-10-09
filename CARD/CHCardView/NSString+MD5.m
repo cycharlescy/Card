@@ -12,9 +12,6 @@
 @implementation NSString (MD5)
 
 - (NSString *)md5 {
-    if (self == nil) {
-        return self;
-    }
     const char *cStr = [self UTF8String];
     unsigned char result[16];
     CC_MD5( cStr, (CC_LONG)strlen(self.UTF8String), result );

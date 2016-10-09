@@ -16,11 +16,10 @@
 		31C03A001DA9F25300EEE979 /* CARDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C039FF1DA9F25300EEE979 /* CARDTests.m */; };
 		31C03A0B1DA9F25300EEE979 /* CARDUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C03A0A1DA9F25300EEE979 /* CARDUITests.m */; };
 		31C03A201DA9F26000EEE979 /* CHCardItemCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C03A191DA9F26000EEE979 /* CHCardItemCustomView.m */; };
-		31C03A211DA9F26000EEE979 /* CHCardItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C03A1B1DA9F26000EEE979 /* CHCardItemModel.m */; };
-		31C03A221DA9F26000EEE979 /* CHCardItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C03A1D1DA9F26000EEE979 /* CHCardItemView.m */; };
-		31C03A231DA9F26000EEE979 /* CHCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C03A1F1DA9F26000EEE979 /* CHCardView.m */; };
-		56C0D8D71DAA4A78002C7D5C /* JSON in Resources */ = {isa = PBXBuildFile; fileRef = 56C0D8D61DAA4A78002C7D5C /* JSON */; };
-		56C0D8DA1DAA5032002C7D5C /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 56C0D8D91DAA5032002C7D5C /* NSString+MD5.m */; };
+		56C0D8F21DAA5395002C7D5C /* CHCardItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 56C0D8EB1DAA5395002C7D5C /* CHCardItemModel.m */; };
+		56C0D8F31DAA5395002C7D5C /* CHCardItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 56C0D8ED1DAA5395002C7D5C /* CHCardItemView.m */; };
+		56C0D8F41DAA5395002C7D5C /* CHCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 56C0D8EF1DAA5395002C7D5C /* CHCardView.m */; };
+		56C0D8F51DAA5395002C7D5C /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 56C0D8F11DAA5395002C7D5C /* NSString+MD5.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,15 +58,14 @@
 		31C03A0C1DA9F25300EEE979 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		31C03A181DA9F26000EEE979 /* CHCardItemCustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHCardItemCustomView.h; sourceTree = "<group>"; };
 		31C03A191DA9F26000EEE979 /* CHCardItemCustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHCardItemCustomView.m; sourceTree = "<group>"; };
-		31C03A1A1DA9F26000EEE979 /* CHCardItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHCardItemModel.h; sourceTree = "<group>"; };
-		31C03A1B1DA9F26000EEE979 /* CHCardItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHCardItemModel.m; sourceTree = "<group>"; };
-		31C03A1C1DA9F26000EEE979 /* CHCardItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHCardItemView.h; sourceTree = "<group>"; };
-		31C03A1D1DA9F26000EEE979 /* CHCardItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHCardItemView.m; sourceTree = "<group>"; };
-		31C03A1E1DA9F26000EEE979 /* CHCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHCardView.h; sourceTree = "<group>"; };
-		31C03A1F1DA9F26000EEE979 /* CHCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHCardView.m; sourceTree = "<group>"; };
-		56C0D8D61DAA4A78002C7D5C /* JSON */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = JSON; sourceTree = "<group>"; };
-		56C0D8D81DAA5032002C7D5C /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
-		56C0D8D91DAA5032002C7D5C /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
+		56C0D8EA1DAA5395002C7D5C /* CHCardItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHCardItemModel.h; sourceTree = "<group>"; };
+		56C0D8EB1DAA5395002C7D5C /* CHCardItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHCardItemModel.m; sourceTree = "<group>"; };
+		56C0D8EC1DAA5395002C7D5C /* CHCardItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHCardItemView.h; sourceTree = "<group>"; };
+		56C0D8ED1DAA5395002C7D5C /* CHCardItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHCardItemView.m; sourceTree = "<group>"; };
+		56C0D8EE1DAA5395002C7D5C /* CHCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHCardView.h; sourceTree = "<group>"; };
+		56C0D8EF1DAA5395002C7D5C /* CHCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHCardView.m; sourceTree = "<group>"; };
+		56C0D8F01DAA5395002C7D5C /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		56C0D8F11DAA5395002C7D5C /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,21 +116,13 @@
 		31C039E41DA9F25300EEE979 /* CARD */ = {
 			isa = PBXGroup;
 			children = (
+				56C0D8E91DAA5388002C7D5C /* CHCardView */,
 				31C03A181DA9F26000EEE979 /* CHCardItemCustomView.h */,
 				31C03A191DA9F26000EEE979 /* CHCardItemCustomView.m */,
-				31C03A1A1DA9F26000EEE979 /* CHCardItemModel.h */,
-				31C03A1B1DA9F26000EEE979 /* CHCardItemModel.m */,
-				31C03A1C1DA9F26000EEE979 /* CHCardItemView.h */,
-				31C03A1D1DA9F26000EEE979 /* CHCardItemView.m */,
-				31C03A1E1DA9F26000EEE979 /* CHCardView.h */,
-				31C03A1F1DA9F26000EEE979 /* CHCardView.m */,
 				31C039E81DA9F25300EEE979 /* AppDelegate.h */,
 				31C039E91DA9F25300EEE979 /* AppDelegate.m */,
 				31C039EB1DA9F25300EEE979 /* ViewController.h */,
 				31C039EC1DA9F25300EEE979 /* ViewController.m */,
-				56C0D8D81DAA5032002C7D5C /* NSString+MD5.h */,
-				56C0D8D91DAA5032002C7D5C /* NSString+MD5.m */,
-				56C0D8D61DAA4A78002C7D5C /* JSON */,
 				31C039EE1DA9F25300EEE979 /* Main.storyboard */,
 				31C039F11DA9F25300EEE979 /* Assets.xcassets */,
 				31C039F31DA9F25300EEE979 /* LaunchScreen.storyboard */,
@@ -166,6 +156,21 @@
 				31C03A0C1DA9F25300EEE979 /* Info.plist */,
 			);
 			path = CARDUITests;
+			sourceTree = "<group>";
+		};
+		56C0D8E91DAA5388002C7D5C /* CHCardView */ = {
+			isa = PBXGroup;
+			children = (
+				56C0D8EA1DAA5395002C7D5C /* CHCardItemModel.h */,
+				56C0D8EB1DAA5395002C7D5C /* CHCardItemModel.m */,
+				56C0D8EC1DAA5395002C7D5C /* CHCardItemView.h */,
+				56C0D8ED1DAA5395002C7D5C /* CHCardItemView.m */,
+				56C0D8EE1DAA5395002C7D5C /* CHCardView.h */,
+				56C0D8EF1DAA5395002C7D5C /* CHCardView.m */,
+				56C0D8F01DAA5395002C7D5C /* NSString+MD5.h */,
+				56C0D8F11DAA5395002C7D5C /* NSString+MD5.m */,
+			);
+			path = CHCardView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,7 +278,6 @@
 			files = (
 				31C039F51DA9F25300EEE979 /* LaunchScreen.storyboard in Resources */,
 				31C039F21DA9F25300EEE979 /* Assets.xcassets in Resources */,
-				56C0D8D71DAA4A78002C7D5C /* JSON in Resources */,
 				31C039F01DA9F25300EEE979 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,14 +303,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31C03A221DA9F26000EEE979 /* CHCardItemView.m in Sources */,
+				56C0D8F31DAA5395002C7D5C /* CHCardItemView.m in Sources */,
 				31C039ED1DA9F25300EEE979 /* ViewController.m in Sources */,
-				56C0D8DA1DAA5032002C7D5C /* NSString+MD5.m in Sources */,
+				56C0D8F51DAA5395002C7D5C /* NSString+MD5.m in Sources */,
 				31C039EA1DA9F25300EEE979 /* AppDelegate.m in Sources */,
-				31C03A231DA9F26000EEE979 /* CHCardView.m in Sources */,
+				56C0D8F41DAA5395002C7D5C /* CHCardView.m in Sources */,
 				31C039E71DA9F25300EEE979 /* main.m in Sources */,
 				31C03A201DA9F26000EEE979 /* CHCardItemCustomView.m in Sources */,
-				31C03A211DA9F26000EEE979 /* CHCardItemModel.m in Sources */,
+				56C0D8F21DAA5395002C7D5C /* CHCardItemModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

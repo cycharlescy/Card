@@ -21,8 +21,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-  
-    
     // set up views
     [self setUpViews];
     
@@ -106,10 +104,6 @@
             [self.dataArray addObject:itemModel];
         }
     }
-    
-    
-  
-    
 }
 
 #pragma mark - CHCardViewDelegate
