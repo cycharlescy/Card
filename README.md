@@ -5,10 +5,8 @@
 
 ####Gif展示
 
- 
-![7.gif](http://upload-images.jianshu.io/upload_images/939127-4caaae7636ce121e.gif?imageMogr2/auto-orient/strip)
-
 ![8.gif](http://upload-images.jianshu.io/upload_images/939127-47e6bca543d3b027.gif?imageMogr2/auto-orient/strip)
+
 #####主要代码：CHCardView.h
 ```
 #import <UIKit/UIKit.h>
