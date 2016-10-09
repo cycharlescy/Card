@@ -1,5 +1,5 @@
 
-###简书地址：[简书地址](http://www.jianshu.com/users/3930920b505b/latest_articles) 
+###更多内容请移步至简书：简书地址：[简书地址](http://www.jianshu.com/users/3930920b505b/latest_articles) 
 ####Gif展示
 
 
@@ -101,4 +101,4 @@
         }
     }
 ```
-###简书地址：[简书地址](http://www.jianshu.com/users/3930920b505b/latest_articles) 
+###更多内容请移步至简书：简书地址：[简书地址](http://www.jianshu.com/users/3930920b505b/latest_articles) 
